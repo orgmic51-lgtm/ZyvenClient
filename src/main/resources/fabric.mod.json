@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "zyvenclient",
+  "version": "${version}",
+  "name": "ZyvenClient",
+  "description": "A lightweight, mobile-friendly client-side utility and HUD mod.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.zyven.zyvenclient.ZyvenClient"
+    ]
+  },
+  "mixins": [
+    "zyvenclient.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": ">=0.141.0"
+  }
+}
